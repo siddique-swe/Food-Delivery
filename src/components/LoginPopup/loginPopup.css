@@ -1,0 +1,114 @@
+.login-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 400px;
+    background-color: #f6f0eb;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(224, 74, 36, 0.5);
+    z-index: 1000;
+    color: #ffffff;
+  }
+  
+  .login-popup-container {
+    padding: 20px;
+  }
+  
+  .login-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-popup-title h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: tomato;
+  }
+  
+  .login-popup-title img {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .login-popup-input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .login-popup-input input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #e16c13;
+    background-color: rgb(236, 192, 184);
+    color: #230202;
+    font-weight: 600;
+  }
+  
+  .login-popup-input input::placeholder {
+    color: rgb(51, 11, 4);
+    font-weight: 500;
+  }
+  
+  .login-popup-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-popup-container button:hover {
+    background-color: rgb(176, 65, 40);
+  }
+  
+  .login-popup-condition {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-popup-condition input {
+    margin-right: 10px;
+  }
+  
+  .login-popup-condition p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: tomato;
+  }
+  
+  .login-popup-condition p a {
+    color: #f26f43;
+  }
+  
+  .login-popup-condition p a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-popup-container p {
+    font-size: 0.9rem;
+    color: #aaaaaa;
+    text-align: center;
+  }
+  
+  .login-popup-container p span {
+    color: #4caf50;
+    cursor: pointer;
+  }
+  
+  .login-popup-container p span:hover {
+    text-decoration: underline;
+  }
+  
+
